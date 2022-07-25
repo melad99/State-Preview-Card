@@ -1,0 +1,145 @@
+body{
+	background-color: hsl(233, 47%, 7%);
+}
+
+.card{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 1100px; 
+	height: 446px;
+	transform: translate(-50%, -50%);
+	background-color:hsl(244, 38%, 16%) ;
+	border-radius: 10px;
+	
+}
+
+@media (max-width:425px){
+	.sides{
+		display: flex !important;
+		flex-direction: column-reverse !important;
+	}
+
+.card{
+width: 400px;
+}
+
+.right-side{
+	background: url("../img/image-header-mobile.jpg") no-repeat !important;
+	width: 100% !important;
+	height: 300px !important;
+	background-size: cover !important;
+border-radius: 10px 10px 0px 0px !important;
+}
+
+.overlay{
+	border-radius: 10px 10px 0px 0px !important;
+}
+ .num-row{
+	flex-direction: column !important;
+	text-align: center !important;
+	
+	
+ }
+
+ .left-side{
+	text-align: center;
+	margin: 0 !important;
+	padding: 1.8rem;
+	
+	background-color:hsl(244, 38%, 16%);
+
+ }
+.texts{
+
+}
+ .num{
+	padding: 1rem !important;
+	margin: 0 !important;
+	
+ }
+
+}
+
+
+
+
+
+
+
+
+.sides{
+	display: flex;
+	flex-direction: row;
+}
+ 
+.left-side{
+	display: flex;
+	flex-direction: column; 
+	margin-top:4rem;
+	margin-left:4rem;
+
+}
+
+.texts{
+	
+}
+
+.texts h4{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+font-size: 33px;
+color:hsl(0, 0%, 100%);
+}
+
+.texts h4 span{
+color: hsl(277, 64%, 61%);
+}
+
+.texts p{
+font-size: 15px;
+font-family: 'Lexend Deca', sans-serif;
+color: hsla(0, 0%, 100%, 0.75);
+margin-top: 2rem;
+}
+
+
+.num-row{
+display: flex;
+flex-direction: row;
+margin-top: 5rem;
+}
+.num{
+margin-right: 4rem;
+}
+
+.num-number{
+color: hsl(0, 0%, 100%);
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 25px;
+}
+
+.num-text{
+color: hsla(0, 0%, 100%, 0.6);
+font-family: 'Lexend Deca', sans-serif;
+font-weight: 400;
+font-size:15px;
+}
+
+
+
+.right-side{
+	background-image: url('../img/image-header-desktop.jpg') ;
+	background-repeat: no-repeat;
+	width: 970px;
+	height: 446px;
+	border-radius: 0px 10px 10px 0px;
+}
+.overlay{
+	background-color: hsl(277, 64%, 61%, 0.6);
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 10px 10px 0px;
+
+}
